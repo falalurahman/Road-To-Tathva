@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.falalu.roadtotathva" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Question1"
+            android:label="@string/title_activity_question1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question2"
+            android:label="@string/title_activity_question2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question3"
+            android:label="@string/title_activity_question3"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question4"
+            android:label="@string/title_activity_question4"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question5"
+            android:label="@string/title_activity_question5"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question6"
+            android:label="@string/title_activity_question6"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question7"
+            android:label="@string/title_activity_question7"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question8"
+            android:label="@string/title_activity_question8"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question9"
+            android:label="@string/title_activity_question9"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question10"
+            android:label="@string/title_activity_question10"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question11"
+            android:label="@string/title_activity_question11"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question12"
+            android:label="@string/title_activity_question12"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".End"
+            android:label="@string/title_activity_end"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Question13"
+            android:label="@string/title_activity_question13" >
+        </activity>
+        <activity
+            android:name=".Redirect"
+            android:label="@string/title_activity_redirect" >
+        </activity>
+    </application>
+
+</manifest>

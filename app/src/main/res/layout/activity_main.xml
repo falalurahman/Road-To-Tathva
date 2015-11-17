@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:background="@mipmap/bg">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:id="@+id/road"
+        android:contentDescription="@string/road"
+        android:background="@mipmap/road"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/tathva"
+        android:src="@mipmap/tathva"
+        android:contentDescription="@string/imageView"
+        android:visibility="gone"
+        android:layout_alignTop="@+id/road"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp" />
+
+</RelativeLayout>

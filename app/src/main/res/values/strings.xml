@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Road To Tathva</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="imageView">imageView</string>
+    <string name="road">road</string>
+    <string name="title_activity_question1">Question1</string>
+    <string name="title_activity_question2">Question2</string>
+    <string name="question7">A fortress of glass that houses a stronger network than any spider\'s web.</string>
+    <string name="question8">The highway to royalty?</string>
+    <string name="question13">Every morning I have ____ meal and milk.</string>
+    <string name="question10">Used to house one of the best B-schools in the country. Now it serves as a class for...</string>
+    <string name="question9">In the most popular junction of the campus, lies a star that faces the sun.</string>
+    <string name="question12">Now honestly how could the British Broadcasting Corporation have anything to do with this clue?</string>
+    <string name="question1">To be light in darknes... To bring smiles on faces... To be the cause of a blessing:</string>
+    <string name="question4">GK is no longer General Knowledge but Global Knowledge... A problem you will love solving:</string>
+    <string name="question2">57 sleepless nights, where London crawled down to hell and there stood the germans praising their Mysterious \"Lightning War\"</string>
+    <string name="question6">No bounds to your destination... No limits to speed... Go around the world on:</string>
+    <string name="question3">\"REVOLUTION DE L\'ART\" \n Get addicted to the world of art... The word is in town.</string>
+    <string name="question5">Explore the unexplored.\nTake your safety glasses off and quiz away:</string>
+    <string name="question11">This pervy structure watches children flux their muscles and play. With a bowl of breakfast beside, the structure stands tall and mighty, flawless except for a circular crack on its front end.</string>
+    <string name="question14">Congratulations!!! RUSH to OAT Stage and claim your Prize!!!</string>
+    <string name="answer1">Answer</string>
+    <string name="submit1">Submit</string>
+    <string name="next">Next</string>
+    <string name="submit2">Start Over</string>
+    <string name="title_activity_question3">Question3</string>
+    <string name="title_activity_question4">Question4</string>
+    <string name="title_activity_question5">Question5</string>
+    <string name="title_activity_question6">Question6</string>
+    <string name="title_activity_question7">Question7</string>
+    <string name="title_activity_question8">Question8</string>
+    <string name="title_activity_question9">Question9</string>
+    <string name="title_activity_question10">Question10</string>
+    <string name="title_activity_question11">Question11</string>
+    <string name="title_activity_question12">Question12</string>
+    <string name="title_activity_end">End</string>
+    <string name="title_activity_question13">Question13</string>
+    <string name="title_activity_redirect">Redirect</string>
+    <string name="title_activity_acknowledgement">Acknowledgement</string>
+</resources>

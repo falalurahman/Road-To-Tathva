@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@mipmap/tathvabg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.falalu.roadtotathva.Question6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/question6"
+        android:id="@+id/question6"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer6"
+        android:width="200dp"
+        android:layout_below="@+id/question6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="@string/answer1"
+        android:maxLines="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit1"
+        android:id="@+id/button"
+        android:layout_below="@+id/answer6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:onClick="checkAnswer" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timernot"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/question6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:text="Next Attempt After"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:layout_below="@+id/timernot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:textColor="#ff0000"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/customborder"
+        android:id="@+id/popup"
+        android:visibility="gone">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/popupphoto"
+                    android:src="@mipmap/wheels"
+                    android:layout_marginTop="20dp"
+                    android:visibility="visible"
+                    android:background="@drawable/customborder"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:gravity="center"
+                    android:text="A superb collection of rare and sought\-after cars and bikes will be on display at this show. Moreover, with interesting presentations, galleries and video displays Wheels never fails to attract large crowds. It was first realized at Tathva \'08 as a venture to put on show an exhibition of exotic cars and bikes combined with a quest to educate the general masses about the basic know\-how of an automobile.\n\n
+Wheels, besides being an enthralling feast for roughly 15,000 strong auto\-savvy crowd, has many opportunities for the students to interact with today\'s industry in the form of talks, presentations and even some top\-down guided tours of automobiles and its technical aspects."
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/popupphoto"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/popuptext" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/next"
+                    android:id="@+id/popupbutton"
+                    android:layout_below="@+id/popuptext"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:onClick="nextques" />
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>
